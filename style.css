@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    box-sizing: content-box;
+}
+body{
+    background-color: #00c2d1;
+}
+#container{
+    display: flex;
+    height: 50vh;
+    width: 50vw;
+    margin-top: 25vh;
+    margin-left: 25vw;
+    flex-direction: column;
+    border-radius: 2vh;
+    background-color: #0a1045;
+}
+#col1{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#col2{
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#col3{
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#col4{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 30%;
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+    border-radius: 1vh;
+}
+#col2 div{
+    width: 20%;
+}
+#message{
+    width: 75%;
+    height: 50%;
+    margin-top: 3%;
+    border-radius: 2vh;
+    background-color: #f6af65;
+    color:#0a1045 ;
+    text-align: center;
+    font-size: 3vh;
+    padding: 1vh;
+}
+#result{
+    border-radius: 2vh;
+    width: 85%;
+    height: 50%;
+    background-color: #ed33b9;
+    color:#0a1045 ;
+    text-align: center;
+    font-size: 3vh;
+    padding: 1vh;
+}
+#from, #to{
+    display: flex;
+     flex-direction: column;
+     text-align: center;
+}
+#from img{
+    width: 35%;
+    height: 50%;
+}
+#from  select{
+    width: 90%;
+    height: 30%;
+    color: black;
+    border-top-right-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    cursor: pointer;
+}
+#to img{
+    width: 35%;
+    height: 50%;
+}
+#to  select{
+    width: 90%;
+    height: 30%;
+    color: black;
+    border-top-right-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    cursor: pointer;
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+}
+#logo i{
+    color: white;
+    font-size: 5vh;
+}
+#col1 button{
+    height: 3.5vh;
+    border-radius: 1vh;
+}
+#searchBar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+#searchBar input{
+    height: 100%;
+}
+#searchBar button{
+    height: 4vh;
+}
