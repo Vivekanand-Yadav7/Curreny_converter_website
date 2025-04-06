@@ -118,6 +118,7 @@ input{
 #col1 button{
     height: 6%;
     width: 5%;
+    cursor: pointer;
 }
 #searchBar{
     display: flex;
