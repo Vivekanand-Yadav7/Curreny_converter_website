@@ -202,6 +202,7 @@ const countryList = {
     document.querySelector("#message").innerText = `1 ${fromData}  =  ${result.conversion_rates[toData]} ${toData}`;
     let amount = document.querySelector("#searchBar input").value;
     document.querySelector("#result").innerText = `${amount*result.conversion_rates[toData]} ${toData}`;
+    document.querySelector("#contair input").blur()
   }
 
   document.querySelector("#searchBar button").addEventListener('click',(e)=>{
