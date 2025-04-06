@@ -56,8 +56,8 @@ input{
     height: 50%;
     margin-top: 3%;
     border-radius: 2vh;
-    background-color: #f6af65;
-    color:#0a1045 ;
+    background-color: rgba(246, 175, 101, 0.2);
+    color:yellow ;
     text-align: center;
     font-size: 3vh;
     padding: 1vh;
@@ -66,8 +66,8 @@ input{
     border-radius: 2vh;
     width: 85%;
     height: 50%;
-    background-color: #ed33b9;
-    color:#0a1045 ;
+    background-color: rgba(237, 51, 185, 0.2);
+    color:yellow ;
     text-align: center;
     font-size: 3vh;
     padding: 1vh;
@@ -84,11 +84,12 @@ input{
 #from  select{
     width: 90%;
     height: 30%;
-    color: black;
+    color: white;
     border-top-right-radius: 2vh;
     border-bottom-right-radius: 2vh;
     cursor: pointer;
     outline: none;
+    background-color: rgba(2, 5, 3, 0.5);
 }
 #to img{
     width: 35%;
@@ -97,11 +98,12 @@ input{
 #to  select{
     width: 90%;
     height: 30%;
-    color: black;
+    color: white;
     border-top-right-radius: 2vh;
     border-bottom-right-radius: 2vh;
     cursor: pointer;
     outline: none;
+    background-color: rgba(2, 5, 3, 0.5);
 }
 #logo{
     display: flex;
